@@ -21,4 +21,4 @@ with dados:
 
 with estatistica:
     variavel = st.selectbox('Selecione a váriável:', ['area', 'populacao', 'idh', 'matricula'])    
-    st.table(estados[variavel][estados.regiao_nome == regiao].describe())
+    st.table(estados[variavel][estados.regiao_nome == regiao].describe())git 
